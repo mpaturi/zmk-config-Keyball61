@@ -29,14 +29,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DELDTAP_HLD_SNIPE";
             #binding-cells = <0>;
-            bindings = <&kp DELETE>, <&lt 5 LC(DEL)>;
+            bindings = <&lt 5 DEL>, <&lt 5 LC(DEL)>;
         };
 
         bkspdtap_hld_mou: bkspdtap_hld_mou {
             compatible = "zmk,behavior-tap-dance";
             label = "BKSPDTAP_HLD_MOU";
             #binding-cells = <0>;
-            bindings = <&kp BACKSPACE>, <&lt 3 LC(BACKSPACE)>;
+            bindings = <&lt 3 BACKSPACE>, <&lt 3 LC(BACKSPACE)>;
         };
     };
 
