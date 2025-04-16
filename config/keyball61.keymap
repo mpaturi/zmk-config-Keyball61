@@ -25,11 +25,11 @@
 
 / {
     behaviors {
-        deldtap_hld_snipe: deldtap_hld_snipe {
+        deldtap_hld_scroll: deldtap_hld_scroll {
             compatible = "zmk,behavior-tap-dance";
-            label = "DELDTAP_HLD_SNIPE";
+            label = "DELDTAP_HLD_SCROLL";
             #binding-cells = <0>;
-            bindings = <&lt 5 DEL>, <&lt 5 LC(DEL)>;
+            bindings = <&lt 4 DEL>, <&lt 4 LC(DEL)>;
         };
 
         bkspdtap_hld_mou: bkspdtap_hld_mou {
@@ -50,7 +50,7 @@
 &kp TAB       &mt LS(Q) Q               &mt LS(W) W           &mt LS(E) E        &mt LS(R) R          &mt LS(T) T                                                                    &mt LS(Y) Y         &mt LS(U) U       &mt LS(I) I          &mt LS(O) O              &mt LS(P) P               &mt PIPE NON_US_BACKSLASH
 &trans        &mt LS(A) A               &mt LS(S) S           &mt LS(D) D        &mt LS(F) F          &mt LS(G) G                                                                    &mt LS(H) H         &mt LS(J) J       &mt LS(K) K          &mt LS(L) L              &mt SLASH QUESTION        &mt SEMICOLON COLON
 &kp LEFT_WIN  &mt LS(Z) Z               &mt LS(X) X           &mt LS(C) C        &mt LS(V) V          &mt LS(B) B        &mt LEFT_BRACKET LEFT_BRACE  &mt RIGHT_BRACKET RIGHT_BRACE  &mt LS(N) N         &mt LS(M) M       &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt DOUBLE_QUOTES SQT     &kp RIGHT_SHIFT
-&kp LEFT_ALT  &kp LCTRL                 &kp LEFT_SHIFT        &mo 1              &mo 4                &bkspdtap_hld_mou  &deldtap_hld_snipe           &mt LC(ENTER) ENTER            &mo 2                                                                               &mt LS(HOME) HOME         &mt LS(END) END
+&kp LEFT_ALT  &kp LCTRL                 &kp LEFT_SHIFT        &mo 1              &mo 5                &bkspdtap_hld_mou  &deldtap_hld_scroll          &mt LC(ENTER) ENTER            &mo 2                                                                               &mt LS(HOME) HOME         &mt LS(END) END
             >;
         };
 
