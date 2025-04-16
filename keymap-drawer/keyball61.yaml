@@ -56,8 +56,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - FNSYMBT
   - SCROLL
-  - '&bksp_hld_mou'
-  - '&del_hld_snipe'
+  - '&bkspdtap_hld_mou'
+  - '&deldtap_hld_snipe'
   - {t: '$$mdi:keyboard-return$$', h: 'Ctl+$$mdi:keyboard-return$$'}
   - NAV
   - {t: HOME, h: Sft+HOME}
