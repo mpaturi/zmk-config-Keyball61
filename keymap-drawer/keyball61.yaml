@@ -47,9 +47,9 @@ layers:
   - {t: '}', h: ']'}
   - N
   - M
-  - {t: <, h: ','}
-  - {t: '>', h: .}
-  - {t: '"', h: ''''}
+  - {t: ',', h: <, s: <}
+  - {t: ., h: '>'}
+  - {t: '''', h: '"', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
