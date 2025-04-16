@@ -13,31 +13,30 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &lt {
-    tapping-term-ms = <240>;
+    tapping-term-ms = <200>;
     flavor = "balanced";
-    quick-tap-ms = <150>;
 };
 
 &mt {
-    tapping-term-ms = <200>;
+    tapping-term-ms = <240>;
     flavor = "tap-preferred";
-    quick-tap-ms = <150>;
+    quick-tap-ms = <0>;
 };
 
 / {
     behaviors {
-        del_hld_snipe: del_hld_snipe {
+        deldtap_hld_snipe: deldtap_hld_snipe {
             compatible = "zmk,behavior-tap-dance";
-            label = "DEL_HLD_SNIPE";
+            label = "DELDTAP_HLD_SNIPE";
             #binding-cells = <0>;
-            bindings = <&kp DELETE>, <&lt 5 LS(DEL)>;
+            bindings = <&kp DELETE>, <&lt 5 LC(DEL)>;
         };
 
-        bksp_hld_mou: bksp_hld_mou {
+        bkspdtap_hld_mou: bkspdtap_hld_mou {
             compatible = "zmk,behavior-tap-dance";
-            label = "BKSP_HLD_MOU";
+            label = "BKSPDTAP_HLD_MOU";
             #binding-cells = <0>;
-            bindings = <&kp BACKSPACE>, <&lt 3 LS(BACKSPACE)>;
+            bindings = <&kp BACKSPACE>, <&lt 3 LC(BACKSPACE)>;
         };
     };
 
@@ -47,11 +46,11 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESC       &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT N5                                                              &mt CARET NUMBER_6  &mt AMPERSAND N7  &mt ASTERISK N8      &mt LEFT_PARENTHESIS N9  &mt RIGHT_PARENTHESIS N0  &mt PRINTSCREEN C_MUTE
-&kp TAB       &mt LS(Q) Q               &mt LS(W) W           &mt LS(E) E        &mt LS(R) R          &mt LS(T) T                                                                 &mt LS(Y) Y         &mt LS(U) U       &mt LS(I) I          &mt LS(O) O              &mt LS(P) P               &mt PIPE NON_US_BACKSLASH
-&trans        &mt LS(A) A               &mt LS(S) S           &mt LS(D) D        &mt LS(F) F          &mt LS(G) G                                                                 &mt LS(H) H         &mt LS(J) J       &mt LS(K) K          &mt LS(L) L              &mt SLASH QUESTION        &mt SEMICOLON COLON
-&kp LEFT_WIN  &mt LS(Z) Z               &mt LS(X) X           &mt LS(C) C        &mt LS(V) V          &mt LS(B) B     &mt LEFT_BRACKET LEFT_BRACE  &mt RIGHT_BRACKET RIGHT_BRACE  &mt LS(N) N         &mt LS(M) M       &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt DOUBLE_QUOTES SQT     &kp RIGHT_SHIFT
-&kp LEFT_ALT  &kp LCTRL                 &kp LEFT_SHIFT        &mo 1              &mo 4                &bksp_hld_mou   &del_hld_snipe               &mt LC(ENTER) ENTER            &mo 2                                                                               &mt LS(HOME) HOME         &mt LS(END) END
+&kp ESC       &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT N5                                                                 &mt CARET NUMBER_6  &mt AMPERSAND N7  &mt ASTERISK N8      &mt LEFT_PARENTHESIS N9  &mt RIGHT_PARENTHESIS N0  &mt PRINTSCREEN C_MUTE
+&kp TAB       &mt LS(Q) Q               &mt LS(W) W           &mt LS(E) E        &mt LS(R) R          &mt LS(T) T                                                                    &mt LS(Y) Y         &mt LS(U) U       &mt LS(I) I          &mt LS(O) O              &mt LS(P) P               &mt PIPE NON_US_BACKSLASH
+&trans        &mt LS(A) A               &mt LS(S) S           &mt LS(D) D        &mt LS(F) F          &mt LS(G) G                                                                    &mt LS(H) H         &mt LS(J) J       &mt LS(K) K          &mt LS(L) L              &mt SLASH QUESTION        &mt SEMICOLON COLON
+&kp LEFT_WIN  &mt LS(Z) Z               &mt LS(X) X           &mt LS(C) C        &mt LS(V) V          &mt LS(B) B        &mt LEFT_BRACKET LEFT_BRACE  &mt RIGHT_BRACKET RIGHT_BRACE  &mt LS(N) N         &mt LS(M) M       &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt DOUBLE_QUOTES SQT     &kp RIGHT_SHIFT
+&kp LEFT_ALT  &kp LCTRL                 &kp LEFT_SHIFT        &mo 1              &mo 4                &bkspdtap_hld_mou  &deldtap_hld_snipe           &mt LC(ENTER) ENTER            &mo 2                                                                               &mt LS(HOME) HOME         &mt LS(END) END
             >;
         };
 
