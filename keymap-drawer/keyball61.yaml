@@ -37,7 +37,7 @@ layers:
   - {t: L, h: Sft+L}
   - {t: '?', h: /}
   - {t: ':', h: ;}
-  - $$mdi:apple-keyboard-shift$$
+  - LEFT WIN
   - {t: Z, h: Sft+Z}
   - {t: X, h: Sft+X}
   - {t: C, h: Sft+C}
@@ -52,8 +52,8 @@ layers:
   - {t: '''', h: '"', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - LEFT WIN
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - FNSYMBT
   - MOUSE
   - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
