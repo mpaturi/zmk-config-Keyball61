@@ -59,7 +59,7 @@ layers:
   - '&bkspdtap_hld_mou'
   - '&deldtap_hld_scroll'
   - {t: '$$mdi:keyboard-return$$', h: 'Ctl+$$mdi:keyboard-return$$'}
-  - NAV
+  - '&nav_dtap'
   - {t: HOME, h: Sft+HOME}
   - {t: END, h: Sft+END}
   FNSYMBT:
@@ -183,7 +183,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
