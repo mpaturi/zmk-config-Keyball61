@@ -25,7 +25,7 @@ layers:
   - {t: O, h: Sft+O}
   - {t: P, h: Sft+P}
   - {t: \, h: '|'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:volume-high$$', h: '$$mdi:volume-low$$'}
   - {t: A, h: Sft+A}
   - {t: S, h: Sft+S}
   - {t: D, h: Sft+D}
@@ -55,8 +55,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - FNSYMBT
-  - SNIPE
-  - '&bkspdtap_hld_mou'
+  - {t: '$$mdi:backspace$$', h: MOUSE}
+  - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
   - '&deldtap_hld_scroll'
   - {t: '$$mdi:keyboard-return$$', h: 'Ctl+$$mdi:keyboard-return$$'}
   - '&nav_dtap'
@@ -74,7 +74,7 @@ layers:
   - F8
   - F9
   - F10
-  - {t: F11, h: 'Sft+$$mdi:volume-high$$'}
+  - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -86,7 +86,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: F12, h: 'Sft+$$mdi:volume-low$$'}
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -102,7 +102,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '~', h: '`'}
-  - '*'
+  - {t: '*', h: '*'}
   - {t: _, h: '-'}
   - {t: '=', h: +, s: +}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -241,7 +241,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -365,7 +365,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
