@@ -76,8 +76,8 @@
             label = "NAV";
             bindings = <
 &trans  &trans  &trans    &trans          &trans     &trans                  &trans         &trans             &trans    &trans           &trans  &trans
-&trans  &trans  &trans    &kp UP_ARROW    &trans     &trans                  &kp PG_UP      &mt LS(HOME) HOME  &kp UP    &mt LS(END) END  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &trans         &kp LEFT_ARROW     &kp DOWN  &kp RIGHT        &trans  &trans
+&trans  &trans  &trans    &kp UP_ARROW    &trans     &trans                  &trans         &mt LS(HOME) HOME  &kp UP    &mt LS(END) END  &trans  &trans
+&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &kp PG_UP      &kp LEFT_ARROW     &kp DOWN  &kp RIGHT        &trans  &trans
 &trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans             &trans    &trans           &trans  &trans
 &trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &trans                                                       &trans  &trans
             >;
@@ -87,8 +87,8 @@
             label = "MOUSE";
             bindings = <
 &trans  &trans  &trans    &trans          &trans     &trans                  &trans         &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &trans    &kp UP          &trans     &trans                  &kp PG_UP      &trans     &trans  &trans     &trans     &trans
-&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &trans         &mkp LCLK  &trans  &mkp RCLK  &mkp MCLK  &trans
+&trans  &trans  &trans    &kp UP          &trans     &trans                  &trans         &trans     &trans  &trans     &trans     &trans
+&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &kp PAGE_UP    &mkp LCLK  &trans  &mkp RCLK  &mkp MCLK  &trans
 &trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans     &trans  &trans     &trans     &trans
 &trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &mo 1                                        &trans     &trans
             >;
