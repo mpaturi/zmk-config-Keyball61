@@ -51,9 +51,9 @@ layers:
   - {t: ., h: '>'}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - FNSYMBT
   - {t: '$$mdi:backspace$$', h: MOUSE}
   - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
