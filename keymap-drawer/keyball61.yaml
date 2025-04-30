@@ -25,7 +25,7 @@ layers:
   - {t: O, h: Sft+O}
   - {t: P, h: Sft+P}
   - {t: \, h: '|'}
-  - {t: '$$mdi:volume-high$$', h: '$$mdi:volume-low$$'}
+  - $$mdi:volume-high$$
   - {t: A, h: Sft+A}
   - {t: S, h: Sft+S}
   - {t: D, h: Sft+D}
@@ -37,7 +37,7 @@ layers:
   - {t: L, h: Sft+L}
   - {t: '?', h: /}
   - {t: ':', h: ;}
-  - LEFT WIN
+  - $$mdi:volume-low$$
   - {t: Z, h: Sft+Z}
   - {t: X, h: Sft+X}
   - {t: C, h: Sft+C}
@@ -61,7 +61,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: 'Ctl+$$mdi:keyboard-return$$'}
   - '&nav_dtap'
   - Alt+$$mdi:apple-keyboard-control$$
-  - {t: END, h: Sft+END}
+  - RIGHT WIN
   FNSYMBT:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
