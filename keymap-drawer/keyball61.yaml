@@ -60,7 +60,7 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:keyboard-return$$', h: 'Ctl+$$mdi:keyboard-return$$'}
   - '&nav_dtap'
-  - Alt+$$mdi:apple-keyboard-control$$
+  - AltGr+$$mdi:apple-keyboard-control$$
   - RIGHT WIN
   FNSYMBT:
   - {t: '$$mdi:transfer$$', type: trans}
