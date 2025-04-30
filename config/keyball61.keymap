@@ -57,7 +57,7 @@
 &kp TAB                   &mt LS(Q) Q               &mt LS(W) W           &mt LS(E) E        &mt LS(R) R          &mt LS(T) T                                                                              &mt LS(Y) Y         &mt LS(U) U       &mt LS(I) I          &mt LS(O) O              &mt LS(P) P               &mt PIPE NON_US_BACKSLASH
 &mt C_VOL_DN C_VOLUME_UP  &mt LS(A) A               &mt LS(S) S           &mt LS(D) D        &mt LS(F) F          &mt LS(G) G                                                                              &mt LS(H) H         &mt LS(J) J       &mt LS(K) K          &mt LS(L) L              &mt SLASH QUESTION        &mt SEMICOLON COLON
 &kp LEFT_WIN              &mt LS(Z) Z               &mt LS(X) X           &mt LS(C) C        &mt LS(V) V          &mt LS(B) B                  &mt LEFT_BRACKET LEFT_BRACE  &mt RIGHT_BRACKET RIGHT_BRACE  &mt LS(N) N         &mt LS(M) M       &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt DOUBLE_QUOTES SQT     &kp RIGHT_SHIFT
-&kp LC(LEFT_CONTROL)      &kp LEFT_SHIFT            &kp RIGHT_ALT         &mo 1              &lt 3 BACKSPACE      &mt LC(BACKSPACE) BACKSPACE  &mt LC(DEL) DELETE           &mt LC(ENTER) ENTER            &nav_dtap                                                                           &mt LS(HOME) HOME         &mt LS(END) END
+&kp LEFT_CONTROL          &kp LEFT_SHIFT            &kp RIGHT_ALT         &mo 1              &lt 3 BACKSPACE      &mt LC(BACKSPACE) BACKSPACE  &mt LC(DEL) DELETE           &mt LC(ENTER) ENTER            &nav_dtap                                                                           &kp LA(LEFT_CONTROL)      &mt LS(END) END
             >;
         };
 
