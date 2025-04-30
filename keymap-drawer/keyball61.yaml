@@ -55,7 +55,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - FNSYMBT
-  - {t: '$$mdi:backspace$$', h: MOUSE}
+  - MOUSE
   - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: SCROLL}
   - {t: '$$mdi:keyboard-return$$', h: 'Ctl+$$mdi:keyboard-return$$'}
