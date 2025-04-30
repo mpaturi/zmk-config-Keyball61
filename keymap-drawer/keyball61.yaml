@@ -51,7 +51,7 @@ layers:
   - {t: ., h: '>'}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
+  - Ctl+$$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - FNSYMBT
