@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: keyball61}
 layers:
   QWRT:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: PRINTSCREEN}
   - {t: '1', h: '!'}
   - {t: '2', h: '@'}
   - {t: '3', h: '#'}
@@ -12,7 +12,7 @@ layers:
   - {t: '8', h: '*', s: '*'}
   - {t: '9', h: (, s: (}
   - {t: '0', h: ), s: )}
-  - {t: '$$mdi:volume-off$$', h: PRINTSCREEN}
+  - {t: '-', h: _, s: _}
   - $$mdi:keyboard-tab$$
   - {t: Q, h: Sft+Q}
   - {t: W, h: Sft+W}
@@ -24,7 +24,7 @@ layers:
   - {t: I, h: Sft+I}
   - {t: O, h: Sft+O}
   - {t: P, h: Sft+P}
-  - {t: \, h: '|'}
+  - {t: '=', h: +, s: +}
   - $$mdi:volume-high$$
   - {t: A, h: Sft+A}
   - {t: S, h: Sft+S}
@@ -37,7 +37,7 @@ layers:
   - {t: L, h: Sft+L}
   - {t: '?', h: /}
   - {t: ':', h: ;}
-  - $$mdi:volume-low$$
+  - {t: '$$mdi:volume-off$$', h: '$$mdi:volume-low$$'}
   - {t: Z, h: Sft+Z}
   - {t: X, h: Sft+X}
   - {t: C, h: Sft+C}
@@ -50,7 +50,7 @@ layers:
   - {t: ',', h: <, s: <}
   - {t: ., h: '>'}
   - {t: '''', h: '"', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: \, h: '|', s: '|'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
@@ -63,7 +63,7 @@ layers:
   - AltGr+$$mdi:apple-keyboard-control$$
   - RIGHT WIN
   FNSYMBT:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '~', h: '`'}
   - F1
   - F2
   - F3
@@ -101,10 +101,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '~', h: '`'}
-  - {t: '*', h: '*'}
-  - {t: _, h: '-'}
-  - {t: '=', h: +, s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
