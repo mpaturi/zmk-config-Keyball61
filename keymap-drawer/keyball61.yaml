@@ -37,7 +37,7 @@ layers:
   - {t: L, h: Sft+L}
   - {t: '?', h: /}
   - {t: ':', h: ;}
-  - {t: '$$mdi:volume-off$$', h: '$$mdi:volume-low$$'}
+  - {t: '$$mdi:volume-low$$', h: '$$mdi:volume-off$$'}
   - {t: Z, h: Sft+Z}
   - {t: X, h: Sft+X}
   - {t: C, h: Sft+C}
