@@ -47,18 +47,6 @@
         };
     };
 
-    macros {
-        highlight: highlight {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LA(LEFT_CONTROL) &kp NUMBER_2>;
-
-            label = "HIGHLIGHT";
-            tap-ms = <40>;
-            wait-ms = <40>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -69,7 +57,7 @@
 &kp TAB                   &mt LS(Q) Q               &mt LS(W) W           &mt LS(E) E        &mt LS(R) R          &mt LS(T) T                                                                              &mt LS(Y) Y         &mt LS(U) U       &mt LS(I) I          &mt LS(O) O              &mt LS(P) P               &mt PLUS EQUAL
 &kp C_VOLUME_UP           &mt LS(A) A               &mt LS(S) S           &mt LS(D) D        &mt LS(F) F          &mt LS(G) G                                                                              &mt LS(H) H         &mt LS(J) J       &mt LS(K) K          &mt LS(L) L              &mt SLASH QUESTION        &mt SEMICOLON COLON
 &mt C_MUTE C_VOLUME_DOWN  &mt LS(Z) Z               &mt LS(X) X           &mt LS(C) C        &mt LS(V) V          &mt LS(B) B                  &mt LEFT_BRACKET LEFT_BRACE  &mt RIGHT_BRACKET RIGHT_BRACE  &mt LS(N) N         &mt LS(M) M       &mt LESS_THAN COMMA  &mt GREATER_THAN PERIOD  &mt DOUBLE_QUOTES SQT     &mt PIPE BACKSLASH
-&kp LEFT_CONTROL          &kp LEFT_SHIFT            &kp RIGHT_ALT         &mo 1              &lt 3 BACKSPACE      &mt LC(BACKSPACE) BACKSPACE  &mt LC(DEL) DELETE           &mt LC(ENTER) ENTER            &nav_dtap                                                                           &highlight                &mt RIGHT_SHIFT RIGHT_WIN
+&kp LEFT_CONTROL          &kp LEFT_SHIFT            &kp RIGHT_ALT         &mo 1              &lt 3 BACKSPACE      &mt LC(BACKSPACE) BACKSPACE  &mt LC(DEL) DELETE           &mt LC(ENTER) ENTER            &nav_dtap                                                                           &kp LC(LEFT_ALT)          &mt RIGHT_SHIFT RIGHT_WIN
             >;
         };
 
