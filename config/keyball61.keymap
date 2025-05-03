@@ -51,9 +51,11 @@
         highlight: highlight {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp RC(RIGHT_ALT) &kp NUMBER_2>;
+            bindings = <&macro_press>, <&kp LA(LEFT_CONTROL) &kp NUMBER_2>;
 
             label = "HIGHLIGHT";
+            tap-ms = <40>;
+            wait-ms = <40>;
         };
     };
 
