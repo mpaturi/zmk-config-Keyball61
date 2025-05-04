@@ -51,6 +51,8 @@
             label = "SHIFT_WINDTAP";
             #binding-cells = <0>;
             bindings = <&mt LEFT_SHIFT LEFT_SHIFT>, <&kp RIGHT_WIN>;
+
+            tapping-term-ms = <300>;
         };
 
         highlight: highlight {
