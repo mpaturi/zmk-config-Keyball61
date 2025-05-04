@@ -59,7 +59,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "HIGHLIGHT";
             #binding-cells = <0>;
-            bindings = <&mt LC(RA(NUMBER_2)) LC(RA(NUMBER_2))>;
+            bindings = <&mt LEFT_CONTROL LC(RA(NUMBER_2))>;
         };
     };
 
