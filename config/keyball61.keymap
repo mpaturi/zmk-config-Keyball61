@@ -57,7 +57,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "HIGHLIGHT";
             #binding-cells = <0>;
-            bindings = <&mt NUMBER_2 RC(RIGHT_ALT)>;
+            bindings = <&mt NUMBER_2 LC(RIGHT_ALT)>;
         };
     };
 
