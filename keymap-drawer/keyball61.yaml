@@ -51,7 +51,7 @@ layers:
   - {t: ., h: '>'}
   - {t: '''', h: '"', s: '"'}
   - {t: \, h: '|', s: '|'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - FNSYMBT
