@@ -35,8 +35,8 @@ layers:
   - {t: J, h: Sft+J}
   - {t: K, h: Sft+K}
   - {t: L, h: Sft+L}
-  - {t: '?', h: Sft+KP SLASH}
-  - {t: ':', h: Sft+;}
+  - {t: /, h: 'Sft+?', s: '?'}
+  - {t: ;, h: ':', s: ':'}
   - {t: '$$mdi:volume-low$$', h: '$$mdi:volume-off$$'}
   - {t: Z, h: Sft+Z}
   - {t: X, h: Sft+X}
