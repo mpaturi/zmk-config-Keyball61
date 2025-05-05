@@ -43,8 +43,8 @@ layers:
   - {t: C, h: Sft+C}
   - {t: V, h: Sft+V}
   - {t: B, h: Sft+B}
-  - {t: '{', h: '['}
-  - {t: '}', h: ']'}
+  - {t: '{', h: 'Sft+['}
+  - {t: '}', h: 'Sft+]'}
   - {t: N, h: Sft+N}
   - {t: M, h: Sft+M}
   - {t: ',', h: Sft+<, s: <}
