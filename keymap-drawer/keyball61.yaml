@@ -2,7 +2,7 @@ layout: {zmk_keyboard: keyball61}
 layers:
   QWRT:
   - {t: '$$mdi:keyboard-esc$$', h: PRINTSCREEN}
-  - {t: '1', h: '!'}
+  - {t: '1', h: Sft+!}
   - {t: '2', h: '@'}
   - {t: '3', h: '#'}
   - {t: '4', h: $}
@@ -35,7 +35,7 @@ layers:
   - {t: J, h: Sft+J}
   - {t: K, h: Sft+K}
   - {t: L, h: Sft+L}
-  - {t: '?', h: /}
+  - {t: '?', h: Sft+/}
   - {t: ':', h: ;}
   - {t: '$$mdi:volume-low$$', h: '$$mdi:volume-off$$'}
   - {t: Z, h: Sft+Z}
