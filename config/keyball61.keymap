@@ -71,8 +71,8 @@
             bindings = <
 &mt PRINTSCREEN ESCAPE    &mt LS(EXCLAMATION) NUMBER_1  &mt LS(AT_SIGN) NUMBER_2  &mt HASH NUMBER_3  &mt LS(DOLLAR) NUMBER_4  &mt LS(PERCENT) N5                                                                               &mt CARET NUMBER_6  &mt LS(AMPERSAND) N7  &mt LS(ASTERISK) N8      &mt LS(LEFT_PARENTHESIS) N9  &mt LS(RIGHT_PARENTHESIS) N0  &mt UNDER MINUS
 &kp TAB                   &mt LS(Q) Q                   &mt LS(W) W               &mt LS(E) E        &mt LS(R) R              &mt LS(T) T                                                                                      &mt LS(Y) Y         &mt LS(U) U           &mt LS(I) I              &mt LS(O) O                  &mt LS(P) P                   &mt PLUS EQUAL
-&kp C_VOLUME_UP           &mt LS(A) A                   &mt LS(S) S               &mt LS(D) D        &mt LS(F) F              &mt LS(G) G                                                                                      &mt LS(H) H         &mt LS(J) J           &mt LS(K) K              &mt LS(L) L                  &mt LS(RETURN) ENTER          &mt COLON SEMI
-&mt C_MUTE C_VOLUME_DOWN  &mt LS(Z) Z                   &mt LS(X) X               &mt LS(C) C        &mt LS(V) V              &mt LS(B) B                  &mt LS(LEFT_BRACE) LEFT_BRACKET  &mt LS(RIGHT_BRACE) RIGHT_BRACKET  &mt LS(N) N         &mt LS(M) M           &mt LS(LESS_THAN) COMMA  &mt LS(GREATER_THAN) PERIOD  &mt LS(DOUBLE_QUOTES) SQT     &mt SLASH QMARK
+&kp C_VOLUME_UP           &mt LS(A) A                   &mt LS(S) S               &mt LS(D) D        &mt LS(F) F              &mt LS(G) G                                                                                      &mt LS(H) H         &mt LS(J) J           &mt LS(K) K              &mt LS(L) L                  &mt LS(RETURN) ENTER          &mt SLASH QUESTION
+&mt C_MUTE C_VOLUME_DOWN  &mt LS(Z) Z                   &mt LS(X) X               &mt LS(C) C        &mt LS(V) V              &mt LS(B) B                  &mt LS(LEFT_BRACE) LEFT_BRACKET  &mt LS(RIGHT_BRACE) RIGHT_BRACKET  &mt LS(N) N         &mt LS(M) M           &mt LS(LESS_THAN) COMMA  &mt LS(GREATER_THAN) PERIOD  &mt LS(DOUBLE_QUOTES) SQT     &mt SEMICOLON COLON
 &kp LEFT_CONTROL          &kp LEFT_SHIFT                &kp RIGHT_ALT             &mo 1              &lt 3 BACKSPACE          &mt LC(BACKSPACE) BACKSPACE  &mt LC(DEL) DELETE               &mt LC(ENTER) ENTER                &nav_space                                                                                      &shift_win_dtap               &mt PIPE BACKSLASH
             >;
         };
@@ -91,22 +91,22 @@
         nav_layer {
             label = "NAV";
             bindings = <
-&trans  &trans  &trans    &trans          &trans     &trans                  &trans         &trans             &trans    &trans           &trans  &trans
-&trans  &trans  &trans    &kp UP_ARROW    &trans     &trans                  &trans         &mt LS(HOME) HOME  &kp UP    &mt LS(END) END  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &kp PG_UP      &kp LEFT_ARROW     &kp DOWN  &kp RIGHT        &trans  &trans
-&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans             &trans    &trans           &trans  &trans
-&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &trans                                                       &trans  &trans
+&trans  &trans  &trans    &trans          &trans     &trans                  &trans         &trans                       &trans          &trans           &trans  &trans
+&trans  &trans  &trans    &kp UP_ARROW    &trans     &trans                  &trans         &mkp LCLK                    &trans          &mkp RCLK        &trans  &trans
+&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &kp PG_UP      &mt LS(HOME) LS(LEFT_ARROW)  &kp UP_ARROW    &mt LS(END) END  &trans  &trans
+&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans                       &kp DOWN_ARROW  &trans           &trans  &trans
+&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &trans                                                                       &trans  &trans
             >;
         };
 
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans    &trans          &trans     &trans                  &trans         &trans     &trans          &trans     &trans     &trans
-&trans  &trans  &trans    &kp UP          &trans     &trans                  &trans         &trans     &msc SCRL_UP    &trans     &trans     &trans
-&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &kp PAGE_UP    &mkp LCLK  &msc SCRL_DOWN  &mkp RCLK  &mkp MCLK  &trans
-&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans     &trans          &trans     &trans     &trans
-&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &mo 1                                                &trans     &trans
+&trans  &trans  &trans    &trans          &trans     &trans                  &trans         &trans             &trans          &trans           &trans     &trans
+&trans  &trans  &trans    &kp UP          &trans     &trans                  &trans         &mt LS(HOME) HOME  &trans          &mt LS(END) END  &trans     &trans
+&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &kp PAGE_UP    &mkp LCLK          &msc SCRL_UP    &mkp RCLK        &mkp MCLK  &trans
+&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans             &msc SCRL_DOWN  &trans           &trans     &trans
+&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &mo 1                                                              &trans     &trans
             >;
         };
 
