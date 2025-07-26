@@ -35,7 +35,7 @@ layers:
   - {t: J, h: Sft+J}
   - {t: K, h: Sft+K}
   - {t: L, h: Sft+L}
-  - {t: /, h: 'Sft+?', s: '?'}
+  - {t: '$$mdi:keyboard-return$$', h: Sft+RETURN}
   - {t: ;, h: ':', s: ':'}
   - {t: '$$mdi:volume-low$$', h: '$$mdi:volume-off$$'}
   - {t: Z, h: Sft+Z}
@@ -50,7 +50,7 @@ layers:
   - {t: ',', h: Sft+<, s: <}
   - {t: ., h: Sft+>}
   - {t: '''', h: Sft+", s: '"'}
-  - {t: \, h: '|', s: '|'}
+  - {t: '?', h: /}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
@@ -60,8 +60,8 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:keyboard-return$$', h: 'Ctl+$$mdi:keyboard-return$$'}
   - '&nav_space'
-  - '&highlight_ctl'
   - '&shift_win_dtap'
+  - {t: \, h: '|', s: '|'}
   FNSYMBT:
   - {t: '~', h: '`'}
   - F1
