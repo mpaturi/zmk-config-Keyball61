@@ -205,11 +205,11 @@ layers:
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: HOME, h: Sft+HOME}
+  - {t: '$$mdi:arrow-left-bold$$', h: 'Sft+$$mdi:arrow-left-bold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:arrow-right-bold$$', h: 'Sft+$$mdi:arrow-right-bold$$'}
   - {t: END, h: Sft+END}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
