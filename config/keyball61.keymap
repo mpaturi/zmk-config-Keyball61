@@ -29,7 +29,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "DELDTAP_HLD_SCROLL";
             #binding-cells = <0>;
-            bindings = <&lt 4 DEL>, <&lt 4 LC(DEL)>;
+            bindings = <&lt 0 DEL>, <&lt 0 LC(DEL)>;
         };
 
         bkspdtap_hld_mou: bkspdtap_hld_mou {
@@ -91,10 +91,10 @@
         nav_layer {
             label = "NAV";
             bindings = <
-&trans  &trans  &trans    &trans          &trans     &trans                  &trans         &trans                       &trans          &trans           &trans  &trans
-&trans  &trans  &trans    &kp UP_ARROW    &trans     &trans                  &trans         &mkp LCLK                    &trans          &mkp RCLK        &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &kp PG_UP      &mt LS(HOME) LS(LEFT_ARROW)  &kp UP_ARROW    &mt LS(END) END  &trans  &trans
-&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans                       &kp DOWN_ARROW  &trans           &trans  &trans
+&trans  &trans  &trans    &trans          &trans     &trans                  &trans         &trans                   &trans          &trans               &trans  &trans
+&trans  &trans  &trans    &kp UP_ARROW    &trans     &trans                  &trans         &mt LS(HOME) HOME        &trans          &mt LS(END) END      &trans  &trans
+&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &kp PG_UP      &mt LS(LEFT) LEFT_ARROW  &kp UP_ARROW    &mt LS(RIGHT) RIGHT  &trans  &trans
+&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans                   &kp DOWN_ARROW  &trans               &trans  &trans
 &trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &trans                                                                       &trans  &trans
             >;
         };
@@ -107,28 +107,6 @@
 &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &kp PAGE_UP    &mkp LCLK          &msc SCRL_UP    &mkp RCLK        &mkp MCLK  &trans
 &trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN  &trans             &msc SCRL_DOWN  &trans           &trans     &trans
 &trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &mo 1                                                              &trans     &trans
-            >;
-        };
-
-        scroll_layer {
-            label = "SCROLL";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
-            >;
-        };
-
-        snipe_layer {
-            label = "SNIPE";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
         };
     };
