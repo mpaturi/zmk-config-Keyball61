@@ -206,9 +206,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
-  - {t: '$$mdi:arrow-left-bold$$', h: 'Sft+$$mdi:arrow-left-bold$$'}
-  - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:arrow-right-bold$$', h: 'Sft+$$mdi:arrow-right-bold$$'}
+  - {t: HOME, h: Sft+HOME}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: END, h: Sft+END}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -217,11 +217,11 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: HOME, h: Sft+HOME}
+  - {t: '$$mdi:arrow-left-bold$$', h: 'Sft+$$mdi:arrow-left-bold$$'}
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:mouse-right-click-outline$$
-  - {t: END, h: Sft+END}
+  - {t: '$$mdi:arrow-right-bold$$', h: 'Sft+$$mdi:arrow-right-bold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -233,7 +233,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
