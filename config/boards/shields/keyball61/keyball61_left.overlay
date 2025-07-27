@@ -66,9 +66,3 @@
     };
 };
 
-/ {
-    display_label_layer {
-        compatible = "zmk,layer-label";
-        labels = "BASE", "FUN", "🐭MOUSE", "L3", "L4", "L5";
-    };
-};   

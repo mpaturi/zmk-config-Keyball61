@@ -87,16 +87,5 @@
 &trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &trans                                                                 &trans               &trans
             >;
         };
-
-        navi_layer {
-            label = "navi";
-            bindings = <
-&trans  &trans  &trans    &trans          &trans     &trans                  &trans                   &trans             &kp UP          &trans           &trans               &trans
-&trans  &trans  &trans    &kp UP          &trans     &trans                  &kp PAGE_UP              &mt LS(HOME) HOME  &kp DOWN_ARROW  &mt LS(END) END  &trans               &trans
-&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &mt LS(LEFT_ARROW) LEFT  &trans             &msc SCRL_UP    &mkp RCLK        &mt LS(RIGHT) RIGHT  &trans
-&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN            &trans             &msc SCRL_DOWN  &trans           &trans               &trans
-&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &trans                                                                       &trans               &trans
-            >;
-        };
     };
 };
