@@ -1,7 +1,10 @@
 #define DEFAULT 0
+
 //#define SYM     1
+
 #define FUN     1
 #define MOUSE   2
+
 //#define SCROLL  4 
 //#define SNIPE   5
 
@@ -30,20 +33,6 @@
             label = "DELDTAP_HLD_SCROLL";
             #binding-cells = <0>;
             bindings = <&lt 0 DEL>, <&lt 0 LC(DEL)>;
-        };
-
-        bkspdtap_hld_mou: bkspdtap_hld_mou {
-            compatible = "zmk,behavior-tap-dance";
-            label = "BKSPDTAP_HLD_MOU";
-            #binding-cells = <0>;
-            bindings = <&lt 3 BACKSPACE>, <&lt 3 LC(BACKSPACE)>;
-        };
-
-        nav_space: nav_space {
-            compatible = "zmk,behavior-tap-dance";
-            label = "NAV_SPACE";
-            #binding-cells = <0>;
-            bindings = <&lt 3 SPACE>;
         };
 
         shift_win_dtap: shift_win_dtap {
