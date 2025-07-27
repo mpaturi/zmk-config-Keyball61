@@ -133,7 +133,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -145,7 +145,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
   - {t: '$$mdi:arrow-left-bold$$', h: 'Sft+$$mdi:arrow-left-bold$$'}
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:arrow-right-bold$$', h: 'Sft+$$mdi:arrow-right-bold$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -157,7 +157,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: HOME, h: Sft+HOME}
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:pan-up$$
+  - $$mdi:arrow-down-bold$$
   - $$mdi:mouse-right-click-outline$$
   - {t: END, h: Sft+END}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:pan-down$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -245,6 +245,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - FNSYMBT
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
