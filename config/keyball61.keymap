@@ -91,11 +91,11 @@
         mouse-layer {
             label = "mousenav";
             bindings = <
-&trans  &trans  &trans    &trans          &trans     &trans                  &trans             &trans             &trans        &trans               &trans           &trans
-&trans  &trans  &trans    &kp UP_ARROW    &trans     &trans                  &kp PAGE_UP        &mt LS(LEFT) LEFT  &kp UP_ARROW  &mt LS(RIGHT) RIGHT  &trans           &trans
-&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &mt LS(HOME) HOME  &mkp LCLK          &kp DOWN      &mkp RCLK            &mt LS(END) END  &trans
-&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN      &trans             &trans        &trans               &trans           &trans
-&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &trans                                                                   &trans           &trans
+&trans  &trans  &trans    &trans          &trans     &trans                  &trans             &trans             &kp UP          &trans           &trans               &trans
+&trans  &trans  &trans    &kp UP_ARROW    &trans     &trans                  &kp PAGE_UP        &mt LS(HOME) HOME  &kp DOWN        &mt LS(END) END  &trans               &trans
+&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &mt LS(LEFT) LEFT  &mkp LCLK          &msc SCRL_UP    &mkp RCLK        &mt LS(RIGHT) RIGHT  &trans
+&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN      &trans             &msc SCRL_DOWN  &trans           &trans               &trans
+&trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &trans                                                                 &trans               &trans
             >;
         };
 
