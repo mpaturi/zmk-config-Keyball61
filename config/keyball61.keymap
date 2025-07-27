@@ -104,7 +104,7 @@
             bindings = <
 &trans  &trans  &trans    &trans          &trans     &trans                  &trans             &trans             &trans          &trans               &trans           &trans
 &trans  &trans  &trans    &kp UP          &trans     &trans                  &kp PAGE_UP        &mt LS(LEFT) LEFT  &kp UP_ARROW    &mt LS(RIGHT) RIGHT  &trans           &trans
-&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &mt LS(HOME) HOME  &trans             &kp DOWN_ARROW  &trans               &mt LS(END) END  &trans
+&trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans                  &mt LS(HOME) HOME  &mkp LCLK          &kp DOWN_ARROW  &mkp RCLK            &mt LS(END) END  &trans
 &trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN      &trans             &trans          &trans               &trans           &trans
 &trans  &trans  &trans    &trans          &trans     &trans  &trans  &trans  &trans                                                                     &trans           &trans
             >;
