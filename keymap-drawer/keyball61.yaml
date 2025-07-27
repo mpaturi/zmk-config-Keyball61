@@ -59,7 +59,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+$$mdi:backspace-reverse-outline$$'}
   - '&highlight_ctl'
-  - '&nav_space'
+  - $$mdi:keyboard-space$$
   - '&shift_win_dtap'
   - {t: \, h: '|', s: '|'}
   FNSYMBT:
