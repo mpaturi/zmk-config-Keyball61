@@ -122,4 +122,5 @@
         compatible = "zmk,layer-label";
         labels = "default", "function", "mouse", "", "", "";
     };
-};
+                 
+labels = "BASE", "FUN", "🐭MOUSE", "L3", "L4", "L5";
