@@ -4,7 +4,6 @@
 #define MOUSE   3
 #define SCROLL  4
 #define SNIPE   5
-
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
