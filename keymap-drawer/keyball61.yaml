@@ -53,7 +53,7 @@ layers:
   - {t: ':', h: ;}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: Alt+Ctl+KP ENTER, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: 'Ctl+AltGr+$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - FnSymBT
   - {t: '$$mdi:backspace$$', h: mousenav}
   - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
