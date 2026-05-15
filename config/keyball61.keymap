@@ -79,7 +79,7 @@
 &trans  &trans  &trans          &trans          &trans     &trans                  &trans                   &mt LS(HOME) HOME  &kp UP_ARROW    &mt LS(LC(END)) END  &trans               &trans
 &trans  &trans  &trans          &kp UP_ARROW    &trans     &trans                  &mt LS(LEFT) LEFT_ARROW  &kp LEFT           &kp DOWN_ARROW  &kp RIGHT_ARROW      &mt LS(RIGHT) RIGHT  &trans
 &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans                  &kp PG_UP                &mkp LCLK          &msc SCRL_UP    &mkp RCLK            &trans               &trans
-&trans  &trans  &trans          &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN            &trans             &msc SCRL_DOWN  &trans               &trans               &trans
+&trans  &trans  &trans          &trans          &trans     &trans  &trans  &trans  &kp PAGE_DOWN            &msc SCRL_LEFT     &msc SCRL_DOWN  &msc SCRL_RIGHT      &trans               &trans
 &trans  &trans  &trans          &trans          &trans     &trans  &trans  &trans  &trans                                                                           &trans               &trans
             >;
         };
