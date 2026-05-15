@@ -50,7 +50,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "MOUSELAYERHOLDDTAP";
             #binding-cells = <0>;
-            bindings = <&lt 2 BACKSPACE>, <&tog 2>;
+            bindings = <&mo 2>, <&tog 2>;
         };
     };
 
