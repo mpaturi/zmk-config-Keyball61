@@ -54,7 +54,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - {t: 'Ctl+AltGr+$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: FnSymBT, h: toggle}
+  - '&FnLayerHoldDtap'
   - {t: '$$mdi:backspace$$', h: mousenav}
   - {t: '$$mdi:backspace$$', h: 'Ctl+$$mdi:backspace$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: 'Ctl+$$mdi:backspace-reverse-outline$$'}
