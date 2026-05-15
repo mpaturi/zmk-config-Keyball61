@@ -43,7 +43,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "FNLAYERHOLDDTAP";
             #binding-cells = <0>;
-            bindings = <&lt 1 SPACE>, <&tog 1>;
+            bindings = <&mo 1>, <&tog 1>;
         };
     };
 
