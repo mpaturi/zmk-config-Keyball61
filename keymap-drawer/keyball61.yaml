@@ -165,12 +165,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
-  - $$mdi:pan-left$$
+  - $$mdi:pan-down$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
   - {t: '$$mdi:transfer$$', type: trans}
